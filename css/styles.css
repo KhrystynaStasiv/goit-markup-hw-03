@@ -57,7 +57,6 @@ a {
 }
 section {
     padding: 120px 0px;
-    margin: auto;
 }
 
 
@@ -93,8 +92,6 @@ section {
 .header-nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    margin-right: 332px;
 }
 .header {
     display: flex;
@@ -117,6 +114,7 @@ section {
         align-items: center;
         gap: 40px;
         margin-left: 76px;
+        margin-right: 332;
 }
 .header-menu-item {
     padding: 24px 0;
@@ -130,12 +128,12 @@ section {
         letter-spacing: 0.02em;
         font-style: inherit;
         display: flex;
-        padding: 24px 0;
 }
 .header-contacts {
     display: flex;
     gap: 40px;
     align-items: center;
+    margin-right: auto;
 }
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
