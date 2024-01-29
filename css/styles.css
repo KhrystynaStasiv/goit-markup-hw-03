@@ -57,6 +57,7 @@ a {
 }
 .section {
     padding: 120px 0px;
+    margin: auto;
 }
 
 .container-header {
@@ -359,9 +360,9 @@ a {
 .portfolio-img-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 .portfolio-item {
-    row-gap: 48px;
     width: calc((100% - 48px) /3);
 }
 .portfolio-picture {
@@ -377,12 +378,11 @@ a {
 /*==================FOOTER PART===============*/
 
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
+    max-width: 1440px;
     height: 312px;
-    flex-shrink: 0;
+     flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
     display: flex;
-    margin: 0%;
     padding: 100px 0;
 }
 .footer-logo {
@@ -395,8 +395,7 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         display: inline-block;
-        margin-bottom: 16px;;
-
+        margin-bottom: 16px;
 }
 .accent-footer-studio {
     color: #f4f4fd;
@@ -414,5 +413,4 @@ a {
         max-width: 264px;
         height: 72px;
         margin-top: 17.5px;
-
 }
