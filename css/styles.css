@@ -92,11 +92,13 @@ section {
     display: flex;
     align-items: center;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
     display: flex;
     align-items: center;
     width: 1158px;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-menu {
@@ -127,7 +129,7 @@ section {
     display: flex;
     gap: 40px;
 }
-.link {
+.header-contacts-list {
     padding: 24px 0;
     display: block;
 }
@@ -373,7 +375,6 @@ section {
 /*==================FOOTER PART===============*/
 
 .footer {
-    max-width: 1440px;
     height: 312px;
      flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
