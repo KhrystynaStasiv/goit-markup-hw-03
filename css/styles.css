@@ -137,6 +137,9 @@ section {
     align-items: center;
     padding: 24px 0;
 }
+.header-contacts-list {
+    padding: 24px 0;
+}
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
    color: #404bbf;
