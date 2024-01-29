@@ -101,6 +101,7 @@ section {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 
 .header-menu {
@@ -113,8 +114,6 @@ section {
         display: flex;
         align-items: center;
         gap: 40px;
-        margin-left: 76px;
-        margin-right: 332;
 }
 .header-menu-item {
     padding: 24px 0;
@@ -132,8 +131,6 @@ section {
 .header-contacts {
     display: flex;
     gap: 40px;
-    align-items: center;
-    margin-right: auto;
 }
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
