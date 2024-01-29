@@ -56,7 +56,7 @@ a {
     margin: 0 auto;
 }
 .section {
-    padding: 120px;
+    padding: 120px 0px;
 }
 
 .container-header {
@@ -245,14 +245,17 @@ a {
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-container {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;
+    padding: 32px 0;
 }
 .team-background {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -266,6 +269,7 @@ a {
         text-transform: capitalize;
         display: flex;
         align-items: center;
+        margin-bottom: 72px;
 }
 
 .img-title {
@@ -277,7 +281,8 @@ a {
         /* 120% */
         letter-spacing: 0.02em;
         padding-top: 32px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
+
 }
 .img-text {
     color: var(--SLATE, #434455);
@@ -287,20 +292,24 @@ a {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .team-member {
     display: flex;
         width: 232px;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        gap: 8px;
+        text-align: center;
+        
 }
 
 
 
 
 /*==========PORTFOLIO===========*/
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 .background {
     background-color: #FFFFFF;
 }
@@ -352,14 +361,17 @@ a {
     flex-wrap: wrap;
 }
 .portfolio-item {
-    gap: 24px 48px;
+    row-gap: 48px;
     width: calc((100% - 48px) /3);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .portfolio-picture {
     margin-bottom: 32px;
 }
-
+.name-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+}
 
 
 /*==================FOOTER PART===============*/
@@ -371,6 +383,7 @@ a {
     flex-shrink: 0;
     display: flex;
     margin: 0%;
+    padding: 100px 0;
 }
 .footer-logo {
     color: #4d5ae5;
@@ -381,8 +394,8 @@ a {
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-top: 101.5px;
-        display: flex;
+        display: inline-block;
+        margin-bottom: 16px;;
 
 }
 .accent-footer-studio {
@@ -398,7 +411,7 @@ a {
         letter-spacing: 0.02em;
         display: flex;
         flex-direction: column;
-        width: 264px;
+        max-width: 264px;
         height: 72px;
         margin-top: 17.5px;
 
