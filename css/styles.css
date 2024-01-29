@@ -22,7 +22,7 @@ ul {
     gap: 24px;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     object-fit: cover;
@@ -40,7 +40,7 @@ ul {
     overflow: hidden;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--SLATE, #434455);
     background-color: #FFF;
@@ -50,26 +50,18 @@ a {
     color: var(--SLATE, #434455);
 }
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-.section {
+section {
     padding: 120px 0px;
     margin: auto;
 }
 
 
 /*==================HEADER===================*/
-
-.container-header {
-    display: flex;
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0;
-    margin: 0%;
-}
 
 .header-logo {
     color: #4d5ae5;
@@ -85,6 +77,7 @@ a {
         display: flex;
         margin-top: 25.5px;
         margin-right: 76px;
+        margin-bottom: 25.5px;
             
 }
 .accent-studio {
@@ -100,13 +93,15 @@ a {
 .header-nav {
     display: flex;
     align-items: center;
-    width: 1158px;
-    margin: 0 auto;
 }
 .header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .header-menu {
@@ -120,6 +115,7 @@ a {
         align-items: center;
         gap: 40px;
         padding: 24px 0;
+        margin-left: 76px;
 }
 .header-address {
     color: var(--SLATE, #434455);
@@ -129,10 +125,14 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: inherit;
+        display: flex;
 }
 .header-contacts {
     display: flex;
     gap: 40px;
+    align-items: center;
+    margin-left: 332px;
+    padding: 24px 0;
 }
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
@@ -143,6 +143,7 @@ a {
     color: #404bbf;
     background-color: #404BBF;
 }
+
 
 
 /*------------ SECTION HERO -------------*/
@@ -227,6 +228,7 @@ a {
 }
 .values-list {
     display: flex;
+    gap: 24px;
 }
 .list-item {
     width: calc((100% - 72px) / 4);
