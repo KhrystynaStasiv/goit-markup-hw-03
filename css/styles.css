@@ -130,15 +130,12 @@ section {
         letter-spacing: 0.02em;
         font-style: inherit;
         display: flex;
+        padding: 24px 0;
 }
 .header-contacts {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
-}
-.header-contacts-list {
-    padding: 24px 0;
 }
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
