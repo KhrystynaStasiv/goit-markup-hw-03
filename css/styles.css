@@ -14,9 +14,8 @@ p {
     margin-bottom: 0;
 }
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+   padding: 0%;
+   margin: 0%;
     list-style-type: none;
     display: flex;
     gap: 24px;
@@ -93,15 +92,11 @@ section {
     display: flex;
     align-items: center;
 }
-.header {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #e7e9fc;
-}
 .header-container {
     display: flex;
     align-items: center;
     width: 1158px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-menu {
@@ -126,11 +121,15 @@ section {
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: inherit;
-        display: flex;
+        margin-left: auto;
 }
 .header-contacts {
     display: flex;
     gap: 40px;
+}
+.link {
+    padding: 24px 0;
+    display: block;
 }
 .header-menu .menu-link:hover,
 .header-menu .menu-link:focus {
