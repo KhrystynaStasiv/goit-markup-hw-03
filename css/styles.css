@@ -77,6 +77,7 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
+    padding-right: 76px;
 }
 
 .accent-studio {
@@ -114,7 +115,6 @@ section {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .menu-link {
