@@ -293,7 +293,6 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
     align-items: center;
-    margin-bottom: 8px;
 }
 
 .img-text {
@@ -309,9 +308,12 @@ section {
 }
 
 .team-member {
+    width: 232px;
     display: flex;
     flex-direction: column;
-    padding: 32px 0;
+    padding: 32px 16px;
+    gap: 8px;
+    align-items: center;
 }
 
 
